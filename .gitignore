@@ -1,5 +1,3 @@
-.vscode/c_cpp_properties.json
+.vscode
 main.exe
 image.ppm
-.vscode/launch.json
-.vscode/settings.json
