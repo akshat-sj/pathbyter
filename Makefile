@@ -1,7 +1,7 @@
 CC = g++
 CFLAGS = -O3 -fopenmp -march=native -mtune=native -mavx2 -mfma -m64 -DNDEBUG
 
-SOURCES = main.cpp
+SOURCES = src/main.cpp
 EXECUTABLE = main
 
 all: $(EXECUTABLE)
