@@ -9,7 +9,7 @@
 int main(){
     int w =1024;
     int h =768;
-    int samps = 400; //1600 spp (can modify)
+    int samps = 600; //1600 spp (can modify)
     //numbers chosen have an artistic base to make scene look pretty
     ray cam(vec3(50,52,295.6),normalize(vec3(0,-0.042612,-1)));
     double a_r = double(w)/double(h);

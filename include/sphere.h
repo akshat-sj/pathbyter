@@ -31,15 +31,15 @@ struct sphere{
 };
 
 inline sphere spheres[] = {
-   sphere(1e5, vec3( 1e5+1,40.8,81.6), vec3(),vec3(0,.75,.0),DIFF),
-   sphere(1e5, vec3(-1e5+99,40.8,81.6),vec3(),vec3(.75,0,0),DIFF),
-   sphere(1e5, vec3(50,40.8, 1e5),     vec3(),vec3(.75,.75,.75),DIFF),
-   sphere(1e5, vec3(50,40.8,-1e5+170), vec3(),vec3(),DIFF),
-   sphere(1e5, vec3(50, 1e5, 81.6),    vec3(),vec3(.75,.75,.75),DIFF),
-   sphere(1e5, vec3(50,-1e5+81.6,81.6),vec3(),vec3(.75,.75,.75),DIFF),
-   sphere(16.5,vec3(27,16.5,47),       vec3(),vec3(1,1,1)*.999, SPEC),
-    sphere(16.5,vec3(73,43,62),       vec3(),vec3(1,1,1)*.999, REFR), 
-   sphere(600, vec3(50,681.6-.27,81.6),vec3(12,12,12),  vec3(), DIFF)
+        sphere(1e5, vec3( 1e5+1,40.8,81.6), vec3(0,0,0),vec3(0,.75,.0),DIFF),
+        sphere(1e5, vec3(-1e5+99,40.8,81.6),vec3(0,0,0),vec3(.75,0,0),DIFF),
+        sphere(1e5, vec3(50,40.8, 1e5),vec3(0,0,0),vec3(.75,.75,.75),DIFF),
+        sphere(1e5, vec3(50,40.8,-1e5+170),vec3(0,0,0),vec3(0,0,0),DIFF),
+        sphere(1e5, vec3(50, 1e5, 81.6),vec3(0,0,0),vec3(.75,.75,.75),DIFF),
+        sphere(1e5, vec3(50,-1e5+81.6,81.6),vec3(0,0,0),vec3(.75,.75,.75),DIFF),
+        sphere(16.5,vec3(27,16.5,47),vec3(0,0,0),vec3(0.99,0.99,0.99), SPEC),
+        sphere(16.5,vec3(73,43,62), vec3(0,0,0),vec3(0.99,0.99,0.99), REFR), 
+        sphere(600, vec3(50,681.6-.27,81.6),vec3(12,12,12), vec3(0,0,0), DIFF)
  }; 
 
 #endif
